@@ -1,18 +1,19 @@
 :root {
     /* Fonts */
-    --main-font-family: 'Montserrat', 'Raleway', 'Roboto', sans-serif;
+    --main-font-family: 'Roboto', sans-serif;
     --main-dark-color: #000;
     --main-light-color: #fff;
     --current-color: #2196F3;
     --main-color: #757575;
     --secondory-color: #212121;
+    --main-background-color: #2F303A;
+
 }
 body {
     font-family: var(--main-font-family)
     font-size: 14px;
     font-weight: 400;
     font-style:normal;
-
     color: var(--main-color)
 }
 .link {
@@ -50,13 +51,28 @@ color: var(--main-dark-color)
 
 }
 .site-logo {
-    font-size: 26px;
+font-size: 26px;
 line-height: 1.19;
 color: var(--main-dark-color);
-
-
 }
-
+.nav-item-color {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.18;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+.nav-item {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.18;
+letter-spacing: 0.02em;
+color: var(--secondory-color)
+}
 .nav-link {
  font-weight: 500;
 font-size: 14px;
@@ -66,7 +82,7 @@ color: var(--secondory-color)
 }
 .section-title {
 
-background: #2F303A;
+background: var(--main-background-color);
 
 }
 .site-title {
@@ -78,10 +94,10 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--main-light-color)
 }
 .header-button {
-background: #2196F3;
+background: #2196F3
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -157,7 +173,7 @@ width: 1600px;
 height: 252px;
 left: 0px;
 top: 2097px;
-background: #2F303A;
+background: var(--main-background-color)
 }
 .address {
 font-family: 'Roboto';
@@ -166,7 +182,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--main-light-color)
 }
 .address-mail {
 font-family: 'Roboto';
@@ -193,5 +209,5 @@ font-weight: 700;
 font-size: 26px;
 line-height:1.19;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--main-light-color)
 }
