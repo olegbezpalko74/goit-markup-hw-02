@@ -62,7 +62,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.18;
 letter-spacing: 0.02em;
-color: #2196F3;
+color: var(--main-color)
 }
 .nav-item {
 font-family: 'Roboto';
@@ -191,7 +191,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color: var(--main-light-color)
 }
 .address-tel {
     font-family: 'Roboto';
@@ -200,7 +200,7 @@ font-weight: 400;
 font-size: 14px;
 line-height:1.71;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color: var(--main-light-color)
 }
 .footer-logo {
 font-family: 'Raleway';
