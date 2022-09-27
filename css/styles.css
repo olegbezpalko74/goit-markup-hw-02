@@ -141,7 +141,7 @@ letter-spacing: 0.03em;
 color: var(--secondory-color)
 }
 .section-team-title {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -151,7 +151,7 @@ letter-spacing: 0.03em;
 color: var(--secondory-color)
 }
 .surname {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
