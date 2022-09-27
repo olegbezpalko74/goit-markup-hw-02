@@ -10,7 +10,7 @@
 
 }
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-size: 14px;
     font-weight: 400;
     font-style:normal;
@@ -36,7 +36,7 @@ body {
     background-color: var(--main-light-color);
 }
 .section-title {
-    font-weight: 700;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
